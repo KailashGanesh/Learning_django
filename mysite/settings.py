@@ -26,7 +26,7 @@ SECRET_KEY = '#1f!8n_sy$7zqvg%m=_+tyjk13%l+ls#lzv@bhy0du%6_d%eug'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['kailash.pythonanywhere.com']
+ALLOWED_HOSTS = ['kailash.pythonanywhere.com','127.0.0.1']
 
 
 # Application definition
