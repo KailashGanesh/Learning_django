@@ -121,3 +121,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = '/home/kailash/Learning_django/static'
+# STATICFILES_DIRS = ( os.path.join('static'), )
+STATICFILES_DIRS = ( Path('static'), ) # add this or else django won't look for static files in mysite/static
